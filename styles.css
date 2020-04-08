@@ -1,0 +1,241 @@
+/*
+#839690- dark green
+#BCCEB8- light green
+#E1B0A2- salmon
+#DADEE1-grey
+#EDCFC3-pink
+*/
+
+
+/*--------------------------------------------------------------
+Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar */
+}
+
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+body {
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri', sans-serif;
+    font-weight: lighter;
+}
+
+p {
+    margin-top: 60px;
+    color: black;
+    font-family: 'Calibri', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+img.logo {
+    width: 150px;
+}
+
+img {
+    width: 230px;
+    padding-bottom: 10px;
+}
+
+.lamp-post {
+    padding-top: 16px;
+}
+
+.shirt {
+    padding-top: 26px;
+}
+
+.book-cover {
+    padding-top: 70px;
+}
+
+a {
+    color: black;
+}
+h1 {
+    font-size: 30px;
+    color: #E1B0A2;
+    font-family: 'Didot', serif;
+}
+h2 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    font-family: 'Didot', serif;
+    font-weight: lighter;
+}
+h1, h2 {
+    margin: 0;
+}
+.content-wrap {
+    max-width: 900px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+h3 {
+    font-family: 'Calibri', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+}
+
+.white-text{
+    color: white;
+}
+
+.logo,
+.site-title {
+    text-align: center;
+}
+
+
+
+/*--------------------------------------------------------------
+General styling
+--------------------------------------------------------------*/
+
+.site {
+	max-width: 80em;
+	margin: 0 auto;
+}
+
+header,
+.blurb,
+.cooper-river,
+.flourish-content,
+.footer {
+	margin-bottom: 1em;
+    padding: 1em;
+    color: white;
+
+}
+
+.featured {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.box-6,
+.puffin {
+    margin-bottom: 1em;
+    padding: 1em;
+    color: white;
+}
+
+header {
+    background-color: white;
+}
+
+.blurb {
+    background-color: white;
+}
+
+.featured {
+    background-color: #BCCEB8;
+}
+
+
+.cooper-river {
+    background-color: #DADEE1;
+}
+
+.sidebar {
+    background-color: white;
+}
+
+.flourish-content {
+    background-color: #BCCEB8;
+}
+
+
+.puffin {
+	background-color: #EDCFC3;
+}
+
+.footer {
+    background-color: #839690;
+}
+
+/*----menu---*/
+.menu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.menu li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: #BCCEB8;
+    line-height: 40px;
+    text-align: center;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.menu li a:hover{
+    background-color: #E1B0A2;
+}
+
+.menu li ul li{
+    display: none;
+}
+
+.menu li:hover ul li{
+    display: block;
+}
+
+/*----------Footer-----------*/
+
+footer {
+    background: #839690;
+    text-align: center;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    }
+
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+}
